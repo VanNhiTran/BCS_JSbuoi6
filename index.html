@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>BT Array</h1>
+    <section class="container">
+      <div class="cart">
+        <div class="form-group">
+          <label> Nhập Vào Số Nguyên </label>
+          <input type="text" class="form-control" id="inputInteger" />
+        </div>
+        <button class="btn btn-info" onclick="handleClick()" id="btnAddNum">
+          Thêm Số
+        </button>
+        <div>
+          <div class="alert alert-danger" role="alert">
+            Array số nguyên : <span id="spanArrayInteger"></span>
+          </div>
+          <div class="alert alert-success" role="alert">
+            1. Tổng giá trị số dương: <span id="spanTotalPositiveNum"></span>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            2. Tổng các số dương có trong mảng:
+            <span id="spanAmountPositiveNum"></span>
+          </div>
+          <div class="alert alert-success" role="alert">
+            3. Số nhỏ nhất: <span id="spanMinNum"></span>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            4. Số dương nhỏ nhất: <span id="spanMinPositiveNum"></span>
+          </div>
+          <div class="alert alert-success" role="alert">
+            5. Số chẵn cuối cùng: <span id="spanLastEven"></span>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            6. Mảng sau khi đổi chỗ: <span id="spanSwapArray"></span>
+          </div>
+          <div class="alert alert-success" role="alert">
+            7. Mảng theo thứ tự tăng dần: <span id="spanReOrder"></span>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            8. Số nguyên tố đầu tiên trong mảng:
+            <span id="spanFirstPrime"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
